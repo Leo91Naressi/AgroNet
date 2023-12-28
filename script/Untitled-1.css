@@ -1,0 +1,142 @@
+@media only screen and (max-width:1200px) {
+    * {
+        max-width: 100%;
+        box-sizing: border-box
+    }
+    .conteudo-pages {
+        padding: 2%
+    }
+    .box-01 {
+        position: relative;
+        bottom: 0;
+    }
+    .box-02{
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    .box-03 .conteudo-total {
+        width: 100%
+    }
+    .box-03 .conteudo {
+        justify-content: center
+    }
+    .box-03 .info {
+        display: none
+    }
+    .box-03 .img {
+        padding: 0 20px
+    }
+}
+
+@media only screen and (max-width:1022px) {
+    .topo {
+        flex-direction: column
+    }
+    .conteudo-rodape {
+        display: block
+    }
+    .texto-rodape {
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:970px) {
+    * {
+        visibility: visible
+    }
+    .box-01 .box .titulo {
+        font: 25px 'Fjalla One', sans-serif
+    }
+}
+
+@media only screen and (max-width:810px) {
+    .swiper-slide {
+        min-height: initial
+    }
+    .box-01 {
+        position: relative;
+        bottom: 0;
+        flex-direction: column
+    }
+    .box-01 .box {
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+        box-shadow: none
+    }
+    .box-01 .box .img {
+        margin-top: 10px
+    }
+    .box-01 .box .titulo {
+        font: 35px 'Fjalla One', sans-serif
+    }
+    .box-02 {
+        padding: 30px
+    }
+    .box-05{
+        padding: 50px 10px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .box-04 .conteudo .item .img .back i {
+        font-size: 30px
+    }
+    .box-03 .conteudo .container .titulo {
+        font: 38px 'Fjalla One', sans-serif
+    }
+    .box-04 .titulo {
+        font: 40px 'Fjalla One', sans-serif
+    }
+    .box-04 .conteudo .item .nome {
+        font: 19px 'Fjalla One', sans-serif
+    }
+    .box-04 .conteudo .item .texto {
+        font: 15px calibri
+    }
+}
+
+@media only screen and (max-width:582px) {
+    .menu-total {
+        width: 100%
+    }
+    .menu li {
+        text-align: center;
+        width: 48%;
+        padding: 20px;
+        margin: 7px 0;
+        border: 2px solid #fff;
+    }
+    .menu li a {
+        font: 20px 'Fjalla One', sans-serif;
+        border-right: none;
+        padding: 10px 20px;
+    }
+    .menu li a:hover {
+        color: #fff;
+    }
+    .menu li a:after {
+        display: none;
+    }
+    .box-01 .box .titulo {
+        font: 25px 'Fjalla One', sans-serif;
+    }
+    .box-01 .box .texto {
+        font: 15px calibri;
+    }
+    .box-02 .texto {
+        font: 30px 'Fjalla One', sans-serif;
+    }
+    
+    .box-03 .info li {
+        font: 20px 'Fjalla One', sans-serif;
+    }
+    .box-04 .conteudo{
+        flex-wrap: wrap;
+    }
+    .box-04 .conteudo .item{
+        width: 90%;
+    }
+}
