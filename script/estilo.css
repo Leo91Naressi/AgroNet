@@ -80,7 +80,7 @@ div:hover > .btn {
 #imagem-centralizada {
     width: 100%;
     text-align: center;
-    margin: 10px 0
+    margin: 10px 0;
 }
 
 #texto-404 {
@@ -107,6 +107,7 @@ div:hover > .btn {
 
 body {
     overflow-x: hidden;
+    background-color: #585858;
 }
 
 a {
@@ -245,7 +246,7 @@ a {
 }
 */
 .topo-total {
-    background: #30bcf3;
+    background: #fbd36a;
     box-shadow: 0 2px 5px 0;
     position: relative;
     z-index: 999;
@@ -317,7 +318,7 @@ a {
 }
 
 .rodape-total {
-    background: #2A2A2A;
+    background: #161616;
 }
 
 .rodape {
@@ -330,7 +331,7 @@ a {
 .conteudo-rodape {
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid #525152;
+    border-bottom: 1px solid #161616;
     align-items: center;
 }
 
@@ -340,9 +341,17 @@ a {
     margin: 10px 60px;
 }
 
-.texto-rodape span {
-    font: 25px 'Fjalla One', sans-serif;
+.texto-PrincipalRodape {
+    text-align: center;
+    margin: -10px 0px;
+    font: 40px 'Fjalla One', sans-serif;
     color: #fcaf3c;
+}
+
+.texto-rodape .SubTexto-rodape {
+    font: 20px 'Fjalla One', sans-serif;
+    color: #ffffff;
+    margin: 0px 120px;
 }
 /*
 
@@ -490,12 +499,12 @@ a {
     display: flex; 
     justify-content: space-around; 
     position: absolute; 
-    bottom: -40px; 
+    bottom: 10px; 
     z-index: 999; 
     } 
 .box-01 .box {
     width: 32%; 
-    background: #454545; 
+    background: #2c2c2c;
     text-align: center; 
     box-shadow: 6px 6px 0px 0px rgba(37, 37, 37, 0.6);
     transition: .5s; 
@@ -510,14 +519,14 @@ a {
     position: absolute; 
     top: 0; left: 0; 
     transition: .5s; 
-    background: rgba(0, 0, 0, 0.5); 
+    background: #161616; 
     } 
 .box-01 .box:hover:after {
     height: 100%; 
-    background: rgba(0, 0, 0, 0.5); 
+    background: #161616; 
     } 
 .box-01 .box .img {
-    background: #fcaf3c; 
+    background: #fabe50; 
     width: 190px; 
     height: 190px; 
     margin: 30px auto; 
@@ -529,7 +538,7 @@ a {
     position: relative; 
     z-index: 999; 
     border: 1px solid #fff; 
-    box-shadow: 0px 0px 0px 15px #fcaf3c; 
+    box-shadow: 0px 0px 0px 15px #fabe50; 
     transition: .5s; 
     } 
 .box-01 .box:hover .img {
@@ -574,11 +583,11 @@ a {
 
 .box-02-total{ 
     text-align: center;
-    background: #2A2A2A;
+    background: #161616;
     
 } 
 .box-02 { 
-    background: #2A2A2A;
+    background: #161616;
     } 
 .box-02-total .texto {
     justify-content: space-around;
@@ -754,7 +763,6 @@ a {
     -webkit-text-stroke: 1px #000000;
 }
 .logoRodape img {
-   
     width: 140px;
 }
 /* Adapte conforme necessário */
@@ -770,18 +778,18 @@ a {
 }
 
 .gallery {
-    top: 750px;
-    display: flex;
-    justify-content: center; /* Alinhamento horizontal */
-    align-items: center; /* Alinhamento vertical */
-    width: 125%;
-    height: 560px;
+    top: 950px;
+    display: relative;
+    justify-content: relative; /* Alinhamento horizontal */
+    align-items: relative; /* Alinhamento vertical */
+    width: 100%;
+    margin: 0px 0px;
   }
-  
+ 
   .gallery .image {
-    width: 80%;
-    display: block;
-    margin: 0 0px;
+    width: 100%;
+    display: relative;
+    margin: 0px 0px;
   }
 
   @media  screen and (max-width: 768px) {
@@ -1058,12 +1066,20 @@ a {
     .texto-rodape {
         text-align: center;
         margin: -10px 0px;
-        font: 15px 'Fjalla One', sans-serif;
-    }
-    .texto-rodape span {
-        font: 15px 'Fjalla One', sans-serif;
+        font: 5px 'Fjalla One', sans-serif;
         color: #fcaf3c;
     }
+    .texto-PrincipalRodape {
+        text-align: center;
+        margin: -10px 0px;
+        font: 12px 'Fjalla One', sans-serif;
+        color: #fcaf3c;
+    }
+    .texto-rodape .SubTexto-rodape {
+        font: 8px 'Fjalla One', sans-serif;
+        color: #ffffff;
+    }
+
     .whatsapp-button {
         width: 40px; 
         height:40px;
