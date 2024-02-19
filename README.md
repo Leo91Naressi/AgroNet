@@ -1,4 +1,4 @@
-Verção atualizada dia 28/12/2023
+Verção atualizada dia 19/02/2024
 
 Escolha um fundo que represente tecnologia ou conexão de internet, como ondas de rádio ou circuitos.
 Certifique-se de que o fundo não distraia demais, para que as informações principais se destaquem.
